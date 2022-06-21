@@ -1,8 +1,22 @@
 {
+  "$schema": "vscode://schemas/color-theme",
   "name": "Gruvbox Dark Medium",
   "type": "dark",
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "parameter": "#8ec07c",
+    "parameter.label": "#ebdbb2",
+    "variable.importPrefix": "#d3869b",
+    "property": "#83a598",
+    "property.declaration:typescript":"#ebdbb2",
+    "annotation": "#fe8019",
+    "property.annotation": "#fe8019",
+    "keyword": "#fb4934"
+
+  },
   "tokenColors": [
     {
+      "scope": "*",
       "settings": {
         "background": "#282828",
         "foreground": "#ebdbb2"
@@ -247,6 +261,7 @@
         "meta.type.annotation",
         "support.type",
         "storage.type.cs",
+        "support.class.dart",
         "variable.class"
       ],
       "settings": {
